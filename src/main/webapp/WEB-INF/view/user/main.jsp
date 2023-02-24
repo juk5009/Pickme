@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-
-    <%@ include file="../layout/header.jsp" %>
+<%@ include file="../layout/header.jsp" %>
 
 
   <main id="main">
@@ -71,7 +70,7 @@
         <div class="row">
           <div class="col-md-6 col-lg-3 mb-5">
             <div class="card" data-aos="fade-up" data-aos-delay="200">
-              <img src="lg.jpg" class="card-img-top" style="object-fit: cover; height: 55%;" alt=" lg">
+              <img src="/images/lg.jpg" class="card-img-top" style="object-fit: cover; height: 55%;" alt=" lg">
               <div class="card-body">
                 <h5 class="card-title description" style="font-size: 24px;">LG</h5><br>
                 <p class="card-text description">Lg 전자 상시 채용</p>
@@ -80,7 +79,7 @@
           </div>
           <div class="col-md-6 col-lg-3 mb-5">
             <div class="card" data-aos="fade-up" data-aos-delay="200">
-              <img src="S.jpg" class="card-img-top" style="object-fit: cover; height: 55%;" alt=" S">
+              <img src="/images/S.jpg" class="card-img-top" style="object-fit: cover; height: 55%;" alt=" S">
               <div class="card-body">
                 <h5 class="card-title description" style="font-size: 24px;">Samsung</h5><br>
                 <p class="card-text description">삼성 전자 상반기 공개 채용</p>
@@ -89,7 +88,7 @@
           </div>
           <div class="col-md-6 col-lg-3 mb-5">
             <div class="card" data-aos="fade-up" data-aos-delay="200">
-              <img src="kakao.jpg" class="card-img-top" style="object-fit: cover; height: 55%;" alt=" kakao">
+              <img src="/images/kakao.jpg" class="card-img-top" style="object-fit: cover; height: 55%;" alt=" kakao">
               <div class="card-body">
                 <h5 class="card-title description" style="font-size: 24px;">Kakao</h5><br>
                 <p class="card-text description">카카오 프론트 개발자 채용</p>
@@ -98,7 +97,7 @@
           </div>
           <div class="col-md-6 col-lg-3 mb-5">
             <div class="card" data-aos="fade-up" data-aos-delay="200">
-              <img src="baemin.jpg" class="card-img-top" style="object-fit: cover; height: 55%;" alt=" baemin">
+              <img src="/images/baemin.jpg" class="card-img-top" style="object-fit: cover; height: 55%;" alt=" baemin">
               <div class="card-body">
                 <h5 class="card-title description" style="font-size: 24px;">Baemin</h5><br>
                 <p class="card-text description">배달의 민족 백엔드 개발자 채용</p>

@@ -20,4 +20,19 @@ public class UserController {
     public String userJoinForm() {
         return "user/userJoinForm";
     }
+
+    @GetMapping("/user/resumeForm")
+    public String resumeForm() {
+        return "user/resumeForm";
+    }
+
+    @GetMapping("/user/joinType")
+    public String joinType() {
+        return "user/joinType";
+    }
+
+    @GetMapping("/user/myPage")
+    public String mypage() {
+        return "user/myPage";
+    }
 }

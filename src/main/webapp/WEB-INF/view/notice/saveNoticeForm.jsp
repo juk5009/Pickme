@@ -116,7 +116,7 @@
             <!-- 공고작성 등록 버튼  -->
 
             <div class="my-saveNoticeForm-submit-btn-1 mycol-md-12">
-              <button class="w-100 btn btn-primary btn-lg" onclick="save2()" type="button">이력서 등록</button>
+              <button class="w-100 btn btn-primary btn-lg" onclick="save2()" type="button">공고 등록</button>
             </div>
 
           </form>

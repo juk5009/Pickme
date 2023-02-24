@@ -3,41 +3,28 @@
 
         <!DOCTYPE html>
         <html lang="en">
-
-        <head>
-            <meta charset="utf-8">
-            <meta content="width=device-width, initial-scale=1.0" name="viewport">
-            <title>PickMe - main</title>
-            <meta content="" name="description">
-            <meta content="" name="keywords">
-
-            <!-- Google Fonts -->
-            <link
-                href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-                rel="stylesheet">
-
-
-            <!-- 이력서 head 시작 -->
-                <meta name="author" content="Mark Otto, Jacob Thornton, 그리고 Bootstrap 기여자들">
-                <meta name="generator" content="Hugo 0.104.2">
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-                <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
-                <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
-                <meta name="theme-color" content="#712cf9">
-            <!-- 이력서 head 끝-->
+            <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="generator" content="Hugo 0.104.2">
+            <meta name="theme-color" content="#712cf9">
+            <title>PickMe main</title>
 
             <!-- 부트스트랩 -->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
+            <!-- 이력서 head 시작 -->
+                
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+            <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+                
+            <!-- 이력서 head 끝-->
             <!-- Template Main CSS File -->
-            <link href="css/style.css" rel="stylesheet">
+            <link href="/css/style.css" rel="stylesheet">
 
-            <!-- =======================================================
-  * Template Name: pick me main
-  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
         </head>
 
         <body>
@@ -59,11 +46,11 @@
 
                         <div id="navbar-2" class="justify-content-end">
                             <ul>
-                                <li><button id="navbar-login" type="button" class="btn btn-warning btn-sm"><a
+                                <li><button id="navbar-login" type="button" class="btn btn-sm"><a
                                             class="nav-link scrollto" href="#team">로그인</a></button></li>
-                                <li><button id="navbar-join" type="button" class="btn btn-warning btn-sm"><a
+                                <li><button id="navbar-join" type="button" class="btn btn-sm"><a
                                             class="nav-link scrollto" href="#contact">회원가입</a></button></li>
-                                <li><a href="#contact"><img src="orange22.jpg" alt="orange22" class="rounded-circle"
+                                <li><a href="#contact"><img src="/images/orange22.jpg" alt="orange22" class="rounded-circle"
                                             style="height: 50px; width: 50px; border: 1px black;"></a>
                                 </li>
                             </ul>

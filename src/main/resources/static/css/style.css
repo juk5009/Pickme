@@ -74,7 +74,7 @@
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgb(255, 220, 150);
+  background: rgb(78, 75, 75);
   transition: all 0.5s;
   z-index: 997;
   height: 86px;
@@ -348,9 +348,9 @@
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: rgb(255, 220, 150);
+  background: rgb(78, 75, 75);
   padding: 0 0 30px 0;
-  color: #444444;
+  color: #fff;
   font-size: 14px;
   display: inline-flexbox;
 
@@ -361,19 +361,6 @@
   justify-content: space-between;
 }
 
-#footer {
-  background: rgb(255, 220, 150);
-  padding: 0 0 30px 0;
-  color: #444444;
-  font-size: 14px;
-  display: inline-flexbox;
-
-}
-
-.credits {
-  display: flex;
-  justify-content: space-between;
-}
 
 /*--------------------------------------------------------------
 # Footer 끝
@@ -762,6 +749,7 @@ form .btn input[type="submit"] {
 .my-resumeForm-content-box-1 {
   margin-left: 33%;
 }
+
 .my-resumeForm-submit-btn-1 {
   display: flex;
   justify-content: center;
@@ -798,6 +786,7 @@ form .btn input[type="submit"] {
 .my-saveNoticeForm-content-box-1 {
   margin-left: 33%;
 }
+
 .my-saveNoticeForm-submit-btn-1 {
   display: flex;
   justify-content: center;
@@ -811,4 +800,114 @@ form .btn input[type="submit"] {
 
 /*--------------------------------------------------------------
 # 공고 작성 끝
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# 회원가입 타입 시작
+--------------------------------------------------------------*/
+.my-joinType-body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-joinType-split {
+  position: relative;
+  height: 100vh;
+  display: flex;
+}
+
+.my-joinType-split .screen {
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.my-joinType-split .screen:hover {
+  flex-grow: 5;
+}
+
+.my-joinType-split .screen:nth-child(1) {
+  background: rgb(255, 220, 155, 0.1);
+}
+
+.my-joinType-split .screen:nth-child(2) {
+  background: rgb(255, 220, 155, 0.5);
+}
+
+.my-joinType-split .screen .card {
+  max-width: 300px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.my-joinType-split .screen .card .imgBx {
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.my-joinType-split .screen .card .imgBx img {
+  max-width: 100%;
+}
+
+.my-joinType-split .screen .card a {
+  padding: 10px 20px;
+  background: #333;
+  color: #eee;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: 0.7s;
+}
+
+/*--------------------------------------------------------------
+# 회원가입 타입 끝
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# mypage / applyUserList 시작
+--------------------------------------------------------------*/
+
+.my-mypage-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.my-mypage-button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.my-mypage-button-group button {
+  margin-right: 10px;
+}
+
+.my-applyUserList-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.my-applyUserList-button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.my-applyUserList-button-group button {
+  margin-right: 10px;
+}
+
+
+/*--------------------------------------------------------------
+# mypage / applyUserList 끝
 --------------------------------------------------------------*/
