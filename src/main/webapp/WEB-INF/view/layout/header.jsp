@@ -16,6 +16,16 @@
                 href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
                 rel="stylesheet">
 
+
+            <!-- 이력서 head 시작 -->
+                <meta name="author" content="Mark Otto, Jacob Thornton, 그리고 Bootstrap 기여자들">
+                <meta name="generator" content="Hugo 0.104.2">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+                <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+                <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+                <meta name="theme-color" content="#712cf9">
+            <!-- 이력서 head 끝-->
+
             <!-- 부트스트랩 -->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
